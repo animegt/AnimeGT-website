@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin:0;
+}
+
+body {
+    background-color: rgb(24 25 24);
+    color: white;
+}
+
+hr {
+    margin-bottom: 0.5rem;
+}
+
+
+/* Usefull classes */
+
+.margin {
+    margin-top: 1rem;
+}
+
+#last-ep .padding {
+    padding-right: 0.5rem;
+    padding-top: 10px;
+}
+
+#last-ep .col-md-3 {
+    padding: 0px;
+}
+
+.padding-ep {
+    padding: 10px;
+}
+
+.shadow {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Navigation Bar */
+
+.nav-bar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(40 40 41);
+    margin-bottom: 0.5rem;
+}
+
+.nav-title {
+    display: inline-block;
+    margin:0px;
+    padding: 1rem 0 1rem 0rem;
+    color: white;
+}
+
+
+
+/* msg */
+
+#first {
+    margin-bottom: 2rem;
+}
+.msg {
+    background-color: rgb(40 40 41);
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.msg h3 {
+    margin-top: 0.5rem;
+    font-family: sans-serif;
+}
+
+/* Holder */
+
+.holder {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px 1rem 0px 1rem;
+}
+
+
+
+/* Last ep Section left table */
+
+.table-holder {
+    padding: 10px;
+    padding-top: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: rgb(40 40 41);
+}
+
+.table-holder h4 {
+    margin-bottom: 0px;
+}
+
+.table-animes a{
+    display:inline-block;
+    width: 100%;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    text-decoration: none;
+    font-size: 1rem;
+
+}
+
+
+.table-animes a:hover {
+    color: rgb(197 31 93);
+
+}
+
+.separator {
+    margin-block-start:0;
+    background-color:rgb(197 31 93);
+}
+
+/* Right Section last episodes*/
+
+.main {
+  width: 100%;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  position: relative;
+  height: 150px;
+  border-radius: 10px;
+
+}
+
+img.absolute {
+
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+img.absolute:hover {
+    opacity: 0.7;
+}
+
+.ultimos {
+    margin-top: 1.3rem;
+}
+
+.link {
+    width: 25rem;
+    height: 25rem;
+    background-color: red;
+}
+
+.name {
+    background-image: linear-gradient(rgb(24 25 24),transparent);
+    position: absolute;
+    color: white;
+    height:45px;
+    font-size: 1.2rem;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 3px;
+    padding-top:10px;
+    text-align: center;
+    display: block; /* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.episodio {
+    position: absolute;
+    bottom:0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    margin: 10px;
+    height: 22px;
+    padding: 0px 10px;
+    border-radius:10px;
+    background-color: rgb(197 31 93);
+    color: white;
+}
+
+
+/* Right Section last animes*/
+
+.name-anime {
+    background: rgb(40 40 41);
+    position: absolute;
+    color: white;
+    font-size: 1rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 8px 3px;
+    text-align: center;
+    display: block; /* or inline-block */
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 100%;
+      max-height: 3.8em;
+  line-height: 1.5em;
+}
+
+.absolute-anime {
+
+    min-width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.absolute-anime:hover {
+
+    opacity: 0.7;
+
+}
