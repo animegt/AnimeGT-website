@@ -68,6 +68,7 @@
               <a href=''><i class='fas fa-play'></i>    Death note</a>
               <hr class='separator'>
               <a href=''><i class='fas fa-play'></i>    Death note</a>
+              <hr class='separator'>
               <a href=''><i class='fas fa-play'></i>    Death note</a>
               <hr class='separator'>
               <a href=''><i class='fas fa-play'></i>    Death note</a>
@@ -391,10 +392,14 @@ function hide() {
   } else {
     $('button')[0].innerHTML = 'Hide'
   }
-
   console.log(lol)
 }
 
+console.log(window.screen.availWidth)
+
+if (window.screen.availWidth < 600) {
+    $('.table-animes').slideToggle();
+}
 </script>
 </body>
 </html>
